@@ -1,0 +1,129 @@
+*{
+	border: 0;
+	margin-right:5px;
+  margin-left: 5px;
+ 
+	background-color: #ffffff;
+}
+
+.head{
+	width: 96.5%;
+	background-color: white;
+	height: 65px;
+	border: 2px solid;
+	padding: 25px 0px 0px 40px;
+	box-shadow: 1px 5px 5px #9d9d9d;
+	border-color: #d9d9d9;
+}
+.social-icon {
+  margin-right: 15px;
+  margin-left: 10px;
+  margin-top: 0px;
+  padding-right: 15px;
+}
+.hh
+{
+	
+	width: 96.5%;
+	background-color: white;
+	height: 65px;
+	border: 2px solid;
+	padding: 25px 25px 50px 40px;
+	box-shadow: 2px 5px 5px #9d9d9d;
+	border-color: #000;
+}
+
+.head_header{
+	background-color: white;
+	color: #9d9d9d;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.ver
+{
+	display: flex;
+	font-size: 25px;
+	
+	color: #000;
+	font-family: 'Source Sans Pro', sans-serif;
+	align-items: center;
+}
+.btgroup button {
+	font-weight: bold;
+	font-size: 30px;
+  background-color: #d9d9d9; /* Green background */
+  border: 1px solid black; /* Green border */
+  color: black; /* White text */
+  padding: 15px 26px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 20%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+.btgroup:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btgroup button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btgroup button:hover {
+  background-color: #FF7F50;
+}
+
+.cssabout
+{
+	background-color:#ffffff;
+	border:2px solid #9d9d9d;
+	display:block;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:25px;
+	padding:22px 75px;
+	text-decoration:none;
+	margin-bottom: 30px;
+
+}
+.mainClass{
+	margin-bottom: 420px;
+}
+
+.main_header{
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	margin: 140px 0px 55px 0px;
+}
+.sel
+{
+	
+	background-color:#ffffff;
+	margin-left: 10px;
+	border:2px solid #000;
+	color:#000;
+	font-family:Arial;
+	font-size:25px;
+	padding:22px 75px;
+	margin-bottom: 30px;
+}
+.cityButton {
+	background-color:#ffffff;
+	border-radius:50px;
+	border:2px solid #9d9d9d;
+	display:block;
+	width: 8%;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:25px;
+	padding:22px 75px;
+	text-decoration:none;
+	margin-bottom: 30px;
+}
+.cityButton:hover {
+	background-color:#9d9d9d;
+}
+
